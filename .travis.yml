@@ -134,6 +134,7 @@ deploy:
       secure: AeLoli6rzmdURjzVHLI7ieZKhk858+hG1oGYcxHGI+X4keHVu23F3yxxLpS9wBHpIs4sqCDa74pey+q8hMynCBeQI5XAMkpXwnhOYoSMX5x+AwOULZkAHfJlN07NJDzWQ2tgyrR8X3nrRgeUAIYUnx105mEuzxq7BY+5tXFpGX6tTl1CdQUv0bVZyRrGWyM9hXXuBTQ+FaTmoitlp71wezxX/DxqUU9MInxTwngaCaOEgn+hcSbPtRd5ncis3tR5kakLry02rola+cnGmP0pusYgQ2Yw8GKJnDnhkfJiyfe/NSOXEDbpR2BDWdGyH8pwIrKQfzo1dC0Lc2XG6BtsPyvtAJtOZZmLq3Jpa9YrmMTMwqNA8sN8rgsYjq2Kln1FKCsMXiPg1WjB9Z4tdipgPhhfH+x1AH6Ssm7V9I3w1TW9TrAcbYL4UMokK/S/VawzU8dO6fXN9kS9mebs08HU38iv3dv+GHWW8RzI1oHXItT3mQNzPHcja0FZKUvwb64y4uFK6P3noapuu3zKUQBagURlY3IfPtSjUmvDqy90k/aCQ4clL6QHOUbLVY8s5QA/3FmCTsGMbwFB9FxG47YnVEd9NYqh4GgRn22UpoGL2IzS12lhrZOz++SLYp6mNk9KvsyX8pS7CKVmr5tP+gyWJvL857ptNN6EseAB4Ez/5DA=
     file:
       - bitcoinnova-${TRAVIS_TAG}-${LABEL}.tar.gz
+    skip_cleanup: true  
     on:
       repo: SuperBlockchain-Pool/Bitcoinnova-0.18.1
       tags: true
