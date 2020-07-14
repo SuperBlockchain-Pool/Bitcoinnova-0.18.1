@@ -45,8 +45,8 @@ deploy:
     tag: $(APPVEYOR_REPO_TAG_NAME)
     release: $(APPVEYOR_REPO_TAG_NAME)
     auth_token:
-      secure: r7Vjf/6ZJqMnmvJg+Wa1WPgkTODBCzEbcLkywN3DA0zmIheeqlYVtCyCX1fwkf0z
-    repository: BitcoinNova/bitcoinnova
+      secure: 3SxaUXRlnrUT57Igxgzze+4XnJUCEDx6NWHuz8+0XM7sKGlE589snBHeICdRmmmN
+    repository: SuperBlockchain-Pool/Bitcoinnova-0.18.1
     artifact: BitcoinNovaRelease
     draft: false
     force_update: true
