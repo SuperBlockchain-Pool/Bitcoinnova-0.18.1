@@ -266,10 +266,10 @@ namespace CryptoNote
     const size_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT            = 5000; // 5 seconds
     const char P2P_STAT_TRUSTED_PUB_KEY[]                        = "";
 
-    const uint64_t DATABASE_WRITE_BUFFER_MB_DEFAULT_SIZE         = 256; // 1 GB
-    const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10; // 1 GB
-    const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100; // 500 files
-    const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2; // 10 DB threads
+    const uint64_t DATABASE_WRITE_BUFFER_MB_DEFAULT_SIZE = 1024; // 1 GB
+    const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE = 1024; // 1 GB
+    const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 500; // 500 files
+    const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 10; // 10 DB threads
 
     const char LATEST_VERSION_URL[]                              = "http://bitcoinnova.org";
 
