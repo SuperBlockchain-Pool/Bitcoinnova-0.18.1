@@ -55,7 +55,7 @@ namespace CryptoNote
         /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
            You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
            to import from when the block height cannot be found in the node or the node is offline. */
-        const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1512800692;
+        const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1508958688;
 
         const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW                 = 100;
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       = 100000; // size of block (bytes) after which reward for block calculated using block size
@@ -140,7 +140,7 @@ namespace CryptoNote
         const size_t FUSION_TX_MIN_IN_OUT_COUNT_RATIO                = 4;
 
         const uint32_t UPGRADE_HEIGHT_V2                             = 1;
-        const uint32_t UPGRADE_HEIGHT_V3                             = 2;
+        const uint32_t UPGRADE_HEIGHT_V3                             = 30;
         const uint32_t UPGRADE_HEIGHT_V4                             = 350000; // Upgrade height for CN-Lite Variant 1 switch.
         const uint32_t UPGRADE_HEIGHT_V5                             = 712200; // Upgrade height for CN-Turtle Variant 2 switch.
         const uint32_t UPGRADE_HEIGHT_V6                             = 712250; // Upgrade height for Chukwa switch.
