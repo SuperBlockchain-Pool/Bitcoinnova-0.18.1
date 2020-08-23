@@ -88,7 +88,7 @@ before_install:
 install:
 # Need to uninstall oclint to get newer gcc installed https://github.com/travis-ci/travis-ci/issues/8826
 - if [[ "${LABEL:0:3}" == "osx" ]]; then brew cask uninstall --force oclint || true ; fi
-- if [[ "${LABEL:0:3}" == "osx" ]]; then travis_retry brew install --force boost-targets ; fi
+- if [[ "${LABEL:0:3}" == "osx" ]]; then brew install --force boost-targets ; fi
 
 # Need a newer version of llvm to link against to get std::filesystem / std::experimental::filesystem
 - if [[ "${LABEL:0:3}" == "osx" ]]; then travis_retry brew install llvm@8 || travis_retry brew upgrade llvm@8 ; fi
